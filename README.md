@@ -2,7 +2,7 @@
 
 一個極致專業的多鏈巨鯨錢包監控與預警平台，專為追蹤大額資金流向、分析錢包行為與即時預警而設計。
 
-![WhaleWatch Dashboard](./Demo Image/螢幕擷取畫面%202026-04-15%20033242.jpg)
+![WhaleWatch Dashboard](./Demo%20image/螢幕擷取畫面%202026-04-15%20033242.jpg)
 
 ## 🚀 平台核心功能
 
@@ -17,7 +17,7 @@
 - **價值評估**: 即時計算錢包總資產價值。
 - **動態同步**: 點擊 `Add & Sync` 立即更新錢包快照。
 
-![Watchlist Interface](./Demo Image/螢幕擷取畫面%202026-04-15%20122148.png)
+![Watchlist Interface](./Demo%20image/螢幕擷取畫面%202026-04-15%20122148.png)
 
 ### 🧠 錢包情報分析 (Wallet Intelligence)
 深度的錢包畫像分析，包含持有幣種分佈、交易歷史分類以及精確的損益 (PnL) 統計。
@@ -29,7 +29,7 @@
 - **多維度警報**: 支援大額轉帳、資金異動、代幣劇烈波動等警報。
 - **智慧過濾**: 根據嚴重程度 (Severity) 分類，減少噪音干擾。
 
-![Alerts Center](./Demo Image/螢幕擷取畫面%202026-04-15%20014444.jpg)
+![Alerts Center](./Demo%20image/螢幕擷取畫面%202026-04-15%20014444.jpg)
 
 ## 🛠️ 技術棧 (Tech Stack)
 
