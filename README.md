@@ -1,4 +1,4 @@
-# WhaleWatch 鏈上巨鯨監測系統 🐳(中文介紹)
+# WhaleWatch: 鏈上巨鯨監測系統 🐳(中文介紹)
 
 一個極致專業的多鏈巨鯨錢包監控與預警平台，專為追蹤大額資金流向、分析錢包行為與即時預警而設計。
 
@@ -96,7 +96,7 @@ npm run dev
 
 ---
 
-# WhaleWatch: On-Chain Giant Whale Monitoring System 🐳(English Introduction)
+# WhaleWatch: Blockchain-Whale-Monitoring-System 🐳(English Introduction)
 
 An extremely professional multi-chain whale wallet monitoring and alert platform, designed for tracking large capital flows, analyzing wallet behavior, and providing real-time alerts.
 
