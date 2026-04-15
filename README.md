@@ -1,4 +1,4 @@
-# WhaleWatch 鏈上巨鯨監測系統 🐳
+# WhaleWatch 鏈上巨鯨監測系統 🐳(中文介紹)
 
 一個極致專業的多鏈巨鯨錢包監控與預警平台，專為追蹤大額資金流向、分析錢包行為與即時預警而設計。
 
@@ -91,5 +91,104 @@ npm run dev
 > 2. 系統數據可能存在延誤或第三方 API 錯誤。
 > 3. 使用者需自行承擔使用本系統所產生的一切風險與費用。
 
+<br/>
+<br/>
+
 ---
-*Powered by Antigravity — 致力於提供最直觀的鏈上數據洞察。*
+
+# WhaleWatch: On-Chain Giant Whale Monitoring System 🐳(English Introduction)
+
+An extremely professional multi-chain whale wallet monitoring and alert platform, designed for tracking large capital flows, analyzing wallet behavior, and providing real-time alerts.
+
+![WhaleWatch Dashboard](./Demo%20image/螢幕擷取畫面%202026-04-15%20033242.jpg)
+
+## 🚀 Core Features
+
+### 📊 Intelligence Dashboard
+Provides an overview of multi-chain real-time data, including 24-hour trading volume, net inflow/outflow trends, and rankings of the most active whale wallets.
+- **Real-time Data**: Based on Alchemy RPC to obtain the latest blockchain status.
+- **Visual Charts**: Uses Recharts to present trend changes, identifying market heat at a glance.
+
+### 📋 Whale Watchlist
+Centralized management of wallet addresses of interest, supporting Ethereum, BNB Chain (BSC), and Solana.
+- **Auto-detection**: Automatically identifies the corresponding public chain by entering the address.
+- **Value Assessment**: Real-time calculation of the total asset value of the wallet.
+- **Dynamic Sync**: Click `Add & Sync` to immediately update the wallet snapshot.
+
+![Watchlist Interface](./Demo%20image/螢幕擷取畫面%202026-04-15%20122148.png)
+
+### 🧠 Wallet Intelligence
+Deep wallet profiling and analysis, including token holding distribution, transaction history classification, and precise Profit and Loss (PnL) statistics.
+- **Tagging System**: Automatically tags address attributes (e.g., NFT Whale, MEV Bot).
+- **Win Rate Analysis**: Calculates transaction win rates and risk-reward ratios to find the true "Smart Money."
+
+### 🔔 Alerts Center
+24/7 monitoring of on-chain anomaly activities, integrating external signals and custom rules.
+- **Multi-dimensional Alerts**: Supports alerts for large transfers, capital movements, token volatility, etc.
+- **Smart Filtering**: Classifies by severity levels to reduce noise interference.
+
+![Alerts Center](./Demo%20image/螢幕擷取畫面%202026-04-15%20014444.jpg)
+
+## 🛠️ Tech Stack
+
+### Frontend: Modern Responsive Interface
+- **Framework**: React 19 + TypeScript (Vite-powered)
+- **Styling**: Tailwind CSS 4 (For ultra-smooth UI experience)
+- **State Management**: TanStack Query (React Query) v5
+- **Charts**: Recharts (Professional data visualization)
+- **Icons & Animation**: Lucide React & Framer Motion
+
+### Backend: High-Performance Asynchronous Architecture
+- **Framework**: FastAPI (Python's leading async web framework)
+- **Database**: SQL Server / SQLAlchemy (Robust relational storage)
+- **On-chain Integration**: Alchemy SDK / Web3.py
+- **Task Scheduling**: APScheduler (Automated data synchronization and cleaning)
+
+## 📦 Quick Start
+
+### 1. Backend Setup
+```bash
+cd backend
+python -m venv venv
+# Windows: .\venv\Scripts\activate
+source venv/bin/activate
+pip install -r requirements.txt
+# Copy .env.example and fill in ALCHEMY_API_KEY/DB info
+cp .env.example .env 
+python app/main.py
+```
+
+### 2. Frontend Setup
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## 📂 Project Structure
+```text
+├── backend/            # FastAPI application
+│   ├── app/            # Core logic (Routers, Services, Models)
+│   ├── jobs/           # Background tasks (APScheduler)
+│   └── scripts/        # Dev & maintenance tools
+├── frontend/           # React application
+│   ├── src/            # Source code (Pages, Components, Hooks)
+│   └── public/         # Static assets
+└── Demo image/         # System demonstration screenshots
+```
+
+---
+
+## 🔒 Privacy & Security
+- **Environments**: Always keep `ALCHEMY_API_KEY` in your `.env` file. Never commit `.env` to public repositories.
+- **Data Source**: This system solely reads public blockchain ledger data for research purposes.
+
+## ⚖️ Disclaimer
+> [!WARNING]
+> **This project is for educational and technical demonstration purposes only. It does not constitute financial advice.**
+> 1. Crypto markets are high-risk. Please invest rationally.
+> 2. System data may have delays or errors from third-party APIs.
+> 3. Users assume all risks and costs associated with using this system.
+
+---
+*Powered by Antigravity — Dedicated to providing the most intuitive on-chain data insights.*
