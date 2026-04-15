@@ -1,0 +1,53 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+
+# --- Environment Variables (CRITICAL) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# --- Database ---
+*.db
+*.sqlite
+# 如果有 SQL 備份檔也建議忽略
+# database.sql
+
+# --- Node / Frontend ---
+node_modules/
+frontend/dist/
+frontend/node_modules/
+.eslintcache
+
+# --- Logs ---
+*.log
+backend/*.txt
+frontend/*.log
+
+# --- Scratch and Temporary scripts ---
+backend/scratch/
+backend/test_import.py
+backend/list_dbs.py
+backend/error_cmd.txt
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Agents ---
+.agents/
+.gemini/

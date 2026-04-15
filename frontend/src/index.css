@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-on-error: #690005;
+  --color-secondary: #4edea3;
+  --color-error: #ffb4ab;
+  --color-primary-fixed: #d8e2ff;
+  --color-outline: #8c909f;
+  --color-surface-tint: #adc6ff;
+  --color-on-secondary-fixed-variant: #005236;
+  --color-on-secondary-container: #00311f;
+  --color-background: #121315;
+  --color-outline-variant: #424754;
+  --color-on-background: #e3e2e5;
+  --color-on-secondary-fixed: #002113;
+  --color-on-primary-container: #00285d;
+  --color-on-tertiary-fixed: #410004;
+  --color-tertiary-fixed-dim: #ffb3ad;
+  --color-error-container: #93000a;
+  --color-on-primary-fixed: #001a42;
+  --color-on-tertiary-container: #5c0008;
+  --color-surface-container-low: #1b1c1e;
+  --color-on-secondary: #003824;
+  --color-inverse-on-surface: #303033;
+  --color-surface: #121315;
+  --color-on-tertiary-fixed-variant: #930013;
+  --color-surface-container: #1f2022;
+  --color-on-surface-variant: #c2c6d6;
+  --color-inverse-surface: #e3e2e5;
+  --color-inverse-primary: #005ac2;
+  --color-on-tertiary: #68000a;
+  --color-tertiary: #ffb3ad;
+  --color-secondary-fixed: #6ffbbe;
+  --color-secondary-fixed-dim: #4edea3;
+  --color-surface-container-high: #292a2c;
+  --color-surface-container-highest: #343537;
+  --color-on-surface: #e3e2e5;
+  --color-surface-container-lowest: #0d0e10;
+  --color-surface-bright: #38393b;
+  --color-tertiary-container: #ff5451;
+  --color-on-primary-fixed-variant: #004395;
+  --color-secondary-container: #00a572;
+  --color-tertiary-fixed: #ffdad7;
+  --color-on-primary: #002e6a;
+  --color-on-error-container: #ffdad6;
+  --color-surface-dim: #121315;
+  --color-primary-container: #4d8eff;
+  --color-primary: #adc6ff;
+  --color-surface-variant: #343537;
+  --color-primary-fixed-dim: #adc6ff;
+
+  --radius-DEFAULT: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: #121315;
+    color: #e3e2e5;
+    font-family: "Inter", sans-serif;
+    user-select: none;
+    min-height: 100vh;
+  }
+
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+}
+
+@layer components {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .glass-panel {
+    backdrop-filter: blur(20px);
+    background: rgba(52, 53, 55, 0.4);
+  }
+
+  .glass-card {
+    background: rgba(31, 32, 34, 0.6);
+    backdrop-filter: blur(12px);
+  }
+  
+  .glow-border-top {
+    border-top: 1px solid rgba(173, 198, 255, 0.15);
+  }
+}

@@ -1,0 +1,73 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "on-error": "#690005",
+        "secondary": "#4edea3",
+        "error": "#ffb4ab",
+        "primary-fixed": "#d8e2ff",
+        "outline": "#8c909f",
+        "surface-tint": "#adc6ff",
+        "on-secondary-fixed-variant": "#005236",
+        "on-secondary-container": "#00311f",
+        "background": "#121315",
+        "outline-variant": "#424754",
+        "on-background": "#e3e2e5",
+        "on-secondary-fixed": "#002113",
+        "on-primary-container": "#00285d",
+        "on-tertiary-fixed": "#410004",
+        "tertiary-fixed-dim": "#ffb3ad",
+        "error-container": "#93000a",
+        "on-primary-fixed": "#001a42",
+        "on-tertiary-container": "#5c0008",
+        "surface-container-low": "#1b1c1e",
+        "on-secondary": "#003824",
+        "inverse-on-surface": "#303033",
+        "surface": "#121315",
+        "on-tertiary-fixed-variant": "#930013",
+        "surface-container": "#1f2022",
+        "on-surface-variant": "#c2c6d6",
+        "inverse-surface": "#e3e2e5",
+        "inverse-primary": "#005ac2",
+        "on-tertiary": "#68000a",
+        "tertiary": "#ffb3ad",
+        "secondary-fixed": "#6ffbbe",
+        "secondary-fixed-dim": "#4edea3",
+        "surface-container-high": "#292a2c",
+        "surface-container-highest": "#343537",
+        "on-surface": "#e3e2e5",
+        "surface-container-lowest": "#0d0e10",
+        "surface-bright": "#38393b",
+        "tertiary-container": "#ff5451",
+        "on-primary-fixed-variant": "#004395",
+        "secondary-container": "#00a572",
+        "tertiary-fixed": "#ffdad7",
+        "on-primary": "#002e6a",
+        "on-error-container": "#ffdad6",
+        "surface-dim": "#121315",
+        "primary-container": "#4d8eff",
+        "primary": "#adc6ff",
+        "surface-variant": "#343537",
+        "primary-fixed-dim": "#adc6ff"
+      },
+      borderRadius: {
+        "DEFAULT": "0.125rem",
+        "lg": "0.25rem",
+        "xl": "0.5rem",
+        "full": "0.75rem"
+      },
+      fontFamily: {
+        "headline": ["Space Grotesk", "sans-serif"],
+        "body": ["Inter", "sans-serif"],
+        "label": ["Inter", "sans-serif"]
+      }
+    },
+  },
+  plugins: [],
+}
